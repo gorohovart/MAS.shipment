@@ -36,8 +36,8 @@ case class DeliveryChoice(unit : Int, point : Int, price : Int)
 
 object App {
   def main(args: Array[String]): Unit = {
-    val graphFilePath = "graph1.txt"
-    //val graphFilePath = "graph2.txt"
+    val graphFilePath = "./graphs/graph1.txt"
+    //val graphFilePath = "./graphs/graph2.txt"
     val pathHandler = new PathHandler(graphFilePath)
     pathHandler.printGraph("graph2.dot")
 
